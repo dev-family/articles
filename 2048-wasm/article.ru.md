@@ -4,7 +4,7 @@
 с числом, являющегося степенью двойки. Стартовое состояние поля имеет 2 заполненные клетки.
 
 <p align="center">
-  <img src="https://github.com/dev-family/articles/blob/master/2048-wasm/images/starting-state.png">
+  <img src="https://github.com/dev-family/articles/blob/2048-wasm/2048-wasm/images/starting-state.png">
 </p>
 
 Игрок может совершать ход в одном из 4 направлений: влево, вправо, вверх и вниз, что сдвигает все плитки до упора в выбранном
@@ -14,7 +14,7 @@
 Походим из стартового состояния, показанного выше, вправо:
 
 <p align="center">
-  <img src="https://github.com/dev-family/articles/blob/master/2048-wasm/images/first-move.png">
+  <img src="https://github.com/dev-family/articles/blob/2048-wasm/2048-wasm/images/first-move.png">
 </p>
 
 Плитка на втором ряду уперлась в правую границу, также появилась двойка на первом ряду, третьем столбце.
@@ -24,7 +24,7 @@
 Походим из предыдущего состояния вверх:
 
 <p align="center">
-  <img src="https://github.com/dev-family/articles/blob/master/2048-wasm/images/second-move.png">
+  <img src="https://github.com/dev-family/articles/blob/2048-wasm/2048-wasm/images/second-move.png">
 </p>
 
 Двойки последнего столбца первой и второй строк объединилсь в одну, а кроме этого на третьем ряду появилась четверка.
