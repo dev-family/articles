@@ -164,7 +164,7 @@ python -m SimpleHTTPServer
 
 # Основа
 
-Коммит: https://github.com/n7olkachev/wasm-2048/commit/6bc015fbc88c1633f4605944fd920b2780e261c1
+Коммит: https://github.com/dev-family/wasm-2048/commit/6bc015fbc88c1633f4605944fd920b2780e261c1
 
 Здесь я описал основные сущности игры и реализовал перемещение плиток без объединений. Также были добавлены
 вспомогательные структуры и методы для удобства.
@@ -277,7 +277,7 @@ python -m SimpleHTTPServer
 
 # Объединения
 
-Коммит: https://github.com/n7olkachev/wasm-2048/commit/7e08b5af6008e6f9d716d7c9a41b0810e869df9e
+Коммит: https://github.com/dev-family/wasm-2048/commit/7e08b5af6008e6f9d716d7c9a41b0810e869df9e
 
 У объединения плиток есть одна особенность: плитки не объединяются больше одного раза,
 т.е. в случае наезжающих друг на друга 4 одинаковых плит, результатом будет являться 2 плитки
@@ -288,7 +288,7 @@ python -m SimpleHTTPServer
 
 # Добавление новых плиток
 
-Коммит: https://github.com/n7olkachev/wasm-2048/commit/6082409412f6c19943c453c5d706d57bbcef538b
+Коммит: https://github.com/dev-family/wasm-2048/commit/6082409412f6c19943c453c5d706d57bbcef538b
 
 Для рандома используется пакет [rand](https://crates.io/crates/rand), который работает и в WASM среде
 путем добавления `wasm-bindgen` feature.
@@ -301,7 +301,7 @@ python -m SimpleHTTPServer
 
 # UI
 
-Коммит: https://github.com/n7olkachev/wasm-2048/commit/356e0889a84d7fc2582662e76238f94fc69bfed7
+Коммит: https://github.com/dev-family/wasm-2048/commit/356e0889a84d7fc2582662e76238f94fc69bfed7
 
 UI часть реализуется довольно просто, особенно для знакомых с React и/или JSX. Прочитать про `html!` макрос из Yew можно [здесь](https://yew.rs/docs/en/concepts/html/),
 а про компоненты в общем [здесь](https://yew.rs/docs/en/concepts/components). Мне очень напомнило React в пре-хуковых времен.
@@ -310,7 +310,7 @@ UI часть реализуется довольно просто, особен
 
 # Анимации
 
-Коммит: https://github.com/n7olkachev/wasm-2048/commit/e258748ab114ec5f930dbeb77d674bdbc5e63b1a.
+Коммит: https://github.com/dev-family/wasm-2048/commit/e258748ab114ec5f930dbeb77d674bdbc5e63b1a.
 
 Чтобы интерфейс смотрелся более живым, необходимо добавить анимации.
 
