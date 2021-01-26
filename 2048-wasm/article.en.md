@@ -278,7 +278,7 @@ It is also worth noting that in the case of horizontal moves, the rows move inde
 In the code, this algorithm is implemented by the methods `Direction#build_traversal` (building a path to traverse the field),
 `Grid#traverse_from` (movement of a specific cell in the direction) and` Grid#move_in` is a public method using the previous two.
 
-# Unions
+# Merging
 
 Commit: https://github.com/dev-family/wasm-2048/commit/7e08b5af6008e6f9d716d7c9a41b0810e869df9e
 
