@@ -39,10 +39,10 @@ Purpose of the game: reach the tile with the number 2048.
 
 Since one of the goals of this experiment for me was to play with Rust, there is no task of choosing a language.
 
-[This page] (https://awesomeopensource.com/project/flosse/rust-web-framework-comparison) provides a list of front-end frameworks for Rust.
-The most popular option - [Yew] (https://yew.rs/) - looks interesting, especially if you have experience with React.
+[This page](https://awesomeopensource.com/project/flosse/rust-web-framework-comparison) provides a list of front-end frameworks for Rust.
+The most popular option - [Yew](https://yew.rs/) - looks interesting, especially if you have experience with React.
 
-Instructions for creating a project can be found [here] (https://yew.rs/docs/en/getting-started/build-a-sample-app):
+Instructions for creating a project can be found [here](https://yew.rs/docs/en/getting-started/build-a-sample-app):
 
 ```bash
 cargo new --lib rust-2048 && cd rust-2048
@@ -294,7 +294,7 @@ a one move.
 
 Commit: https://github.com/dev-family/wasm-2048/commit/6082409412f6c19943c453c5d706d57bbcef538b
 
-The [rand] package (https://crates.io/crates/rand) is used for random, which also works in the WASM environment
+The [rand package](https://crates.io/crates/rand) is used for random, which also works in the WASM environment
 by adding the `wasm-bindgen` feature.
 
 In order not to break previous tests, which are not prepared for a new tiles
@@ -307,8 +307,8 @@ the `traverse_from` signature changes. The method now returns a boolean value th
 
 Commit: https://github.com/dev-family/wasm-2048/commit/356e0889a84d7fc2582662e76238f94fc69bfed7
 
-The UI part is pretty simple to implement, especially for those familiar with React and/or JSX. You can read about the `html!` Macro from Yew [here] (https://yew.rs/docs/en/concepts/html/),
-and about components in general [here] (https://yew.rs/docs/en/concepts/components). It reminds me a lot of React in pre-hook times.
+The UI part is pretty simple to implement, especially for those familiar with React and/or JSX. You can read about the `html!` Macro from Yew [here](https://yew.rs/docs/en/concepts/html/),
+and about components in general [here](https://yew.rs/docs/en/concepts/components). It reminds me a lot of React in pre-hook times.
 
 There was no documentation of working with the keyboard, and, in principle, the services are not documented in any way, so you need to read the sources, watch examples.
 
