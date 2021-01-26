@@ -1,5 +1,5 @@
 This article is an experiment with Rust with its subsequent compilation in WASM.
-It was interesting to try these technologies on something more difficult than calculating a factorial, so
+It was interesting to try these technologies on something more difficult than calculating factorial, so
 the choice fell on the well-known 2048 game.
 
 # Game
